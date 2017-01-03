@@ -20,3 +20,4 @@ Select renamed files, for example [19-1, 19-2, 19-4], and run the service script
 
 Note: the BOOK var in the script much be changed for each new book.
 
+You can also just pass all the files to the automator-shell-script.sh if you run it in your terminal.
