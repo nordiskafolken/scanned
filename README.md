@@ -27,3 +27,5 @@ You can also just pass all the files to the automator-shell-script.sh if you run
 Install tesseract; `brew install tesseract --with-all-languages`.
 Then run ocr.sh with a .jpg passed in. Outputs a .txt with the
 same name as the jpg, with "dirty" appended. (As the file needs to be reviewed by a human and fix problems!)
+
+Either use that or http://www.onlineocr.net/ that gives better results.
