@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 
 function saveFile (url, imagePath) {
-  const destPath = imagePath.split('.jpg')[0] + '.txt';
+  const destPath = imagePath.split('.jpg')[0] + '.ocr.txt';
   const file = fs.createWriteStream(destPath);
   const request = http.get(url, response => {
     response.pipe(file);
