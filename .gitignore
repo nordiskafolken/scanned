@@ -1,3 +1,5 @@
 .DS_Store
 Book 1/Thumbs.db
 todo/.DS_Store
+*.txt
+ocr.js
